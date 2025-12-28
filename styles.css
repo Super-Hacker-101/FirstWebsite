@@ -1,0 +1,14 @@
+*{box-sizing:border-box;font-family:Inter,Segoe UI,Roboto,Arial,sans-serif}
+html,body{height:100%;margin:0}
+body{display:flex;align-items:center;justify-content:center;background:#f5f7fb}
+.container{background:#fff;padding:28px;border-radius:12px;box-shadow:0 6px 18px rgba(30,40,60,0.08);text-align:center;width:320px}
+h1{margin:0 0 16px;font-size:20px;color:#111}
+.counter{font-size:48px;font-weight:700;color:#0b57d0;margin:12px 0}
+.buttons{display:flex;gap:10px;justify-content:center}
+button{padding:10px 16px;border-radius:8px;border:1px solid #d6dde9;background:#f7f9fc;cursor:pointer;font-size:18px}
+button#increment{background:#0b57d0;color:#fff;border-color:#0b57d0}
+button#decrement{background:#e9f0ff;color:#0b57d0}
+button#reset{background:#fff;color:#333}
+button:active{transform:translateY(1px)}
+@media (max-width:360px){.container{width:92%}}
+/*This is the last part: _ilm4}*/
